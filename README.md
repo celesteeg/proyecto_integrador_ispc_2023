@@ -15,10 +15,17 @@ Buscamos reflejar la realidad de los desafíos técnicos para el puesto de desar
 Agradecimientos
 Gracias a los contribuidores del proyecto:
 
+
 Sofia
+
 María de los Angeles
+
 Alfredo
+
 Paula
+
 Celeste
+
 Joaquín
+
 Y a nuestro instituto, ISPC, donde estamos cursando la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales
