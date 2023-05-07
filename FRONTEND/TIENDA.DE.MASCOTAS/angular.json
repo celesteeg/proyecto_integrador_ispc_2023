@@ -4,7 +4,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "TIENDA.DE.MASCOTAS": {
+    "tienda": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -26,6 +26,7 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
   "src/styles.scss"
             ],
@@ -33,6 +34,13 @@
               "node_modules/jquery/dist/jquery.min.js",
   "node_modules/@popperjs/core/dist/umd/popper.min.js",
   "node_modules/bootstrap/dist/js/bootstrap.min.js"
+=======
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+>>>>>>> 25bec2530af90d52b5491b580bdf043dd6da5509
             ]
           },
           "configurations": {
