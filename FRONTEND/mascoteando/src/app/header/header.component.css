@@ -1,0 +1,39 @@
+.logo{
+  flex-grow: 1 ;
+  text-align: center;
+
+ }
+
+ .mat-toolbar{
+
+   display: flex;
+   justify-content: space-between;
+   height: 150px;
+   align-items: center;
+   background: #184852;
+
+  }
+
+  .menu-button{
+   background-color: #184852;
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   color:#9BDE52;
+
+ }
+
+ @media only screen and (max-width: 600px) {
+  .mat-toolbar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .usuario,
+  .carrito {
+  margin-top: 1px;
+  }
+  }
+
+
