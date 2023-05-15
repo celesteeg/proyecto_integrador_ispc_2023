@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#ofertas{
+    background-color: #A3B18A;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#oferta1{
+    background-image: url(/src/assets/Inicio2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 25%;
+    display: flex;
+    align-items: end;
+    
+}
+.oferta1-1{
+    width: 55%;
+    height: 15%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:start;
+    background-color: whitesmoke;
+    margin-left: 5px;
+}
+.textoaccs{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #A3B18A;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.textorazas{
+    font-size: 1em;
+    font-weight:lighter;
+    color: black;
+    text-align: center;
+    margin-left: 5px;
+   
+}
+
+#layout1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#oferta2{
+    background-image: url(/src/assets/61j8BZs+dPL._AC_UL600_SR600\,400_.jpg);
+    background-size: cover;
+    background-position:initial;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+    
+}
+#oferta3{
+    background-image: url(/src/assets/s-l300.jpg);
+    background-size: cover;
+     display: flex;
+    align-items: end;
+    background-position: initial;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: end;
+   
+}
+#textosalimentos{
+    width: 50%;
+    height: 23%;
+}
+#textoscollares{
+    width: 50%;
+    height: 23%;
+}
+#textoofertas{
+    background-color: #A3B18A;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#cards{
+    height: 75vh;
+    background-color: white;
+    margin-top: 0px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+     text-align: initial;
+     margin-left: 20px;
+     padding-top: 30px;
+     padding-bottom: 10px;
+}
+
+#cardscontainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.75rem;
+    background-color: white;
+    width: 300px;
+    height: 370px;
+    box-shadow: 0 10px 15px -3px #588157,0 4px 6px -4px #588157;
+    margin-right: 30px;
+    border: 2px solid #588157;
+  }
+  
+  .header {
+    position: relative;
+    background-clip: border-box;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.75rem;
+    background-color:#588157;
+    box-shadow: 0 10px 15px -3px #588157,0 4px 6px -4px #588157;
+    height: 14rem;
+  }
+  
+  .info {
+    border: none;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .title {
+    color:#588157;
+    letter-spacing: 0;
+    line-height: 1.375;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer {
+    padding: 0.75rem;
+    border: 1px solid rgb(236 239 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#DAD7CD;
+  }
+  
+  .tag {
+    font-weight: 300;
+    font-size: .75rem;
+    display: block;
+  }
+  
+  .action {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color:#588157;
+    border-radius: 0.5rem;
+  }
+  #card1{
+    background-image: url(/src/assets/CatBed.jpg);
+    background-size: contain;
+  }
+  #card2{
+    background-image: url(/src/assets/correa.jpg);
+    background-size: contain;
+  }
+  #card3{
+    background-image: url(/src/assets/jugueteFutbolAmericano.jpg);
+    background-size: contain;
+  }
+  #card4{
+    background-image: url(/src/assets/PadSimilCesped.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
