@@ -17,7 +17,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 
-
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -29,7 +29,7 @@ import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.compo
     HeaderComponent,
     NavComponent,
     DashboardComponent,
-    ProductosComponent,
+    
     QuienesSomosComponent
 
   ],
@@ -39,7 +39,9 @@ import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.compo
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
