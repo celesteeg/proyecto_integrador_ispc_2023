@@ -7,6 +7,11 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
+//rutas agregadas
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { ProductosComponent } from './pages/productos/productos.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+
 
 
 const routes: Routes = [
@@ -14,6 +19,10 @@ const routes: Routes = [
     { path: 'footer', component: FooterComponent },
     {path: 'header', component: HeaderComponent },
 
+    //agregados
+    {path:'productos', component:ProductosComponent },
+    {path: 'quienes-somos', component: QuienesSomosComponent },
+    {path: 'dashboard', component: DashboardComponent },
 ];
 
 

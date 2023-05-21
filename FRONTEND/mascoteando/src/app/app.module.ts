@@ -12,6 +12,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+//agregado
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { ProductosComponent } from './pages/productos/productos.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+
 
 
 
@@ -22,7 +27,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BodyComponent,
     FooterComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    DashboardComponent,
+    ProductosComponent,
+    QuienesSomosComponent
 
   ],
   imports: [
