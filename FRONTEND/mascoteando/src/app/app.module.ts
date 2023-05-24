@@ -14,12 +14,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 //agregado
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { ProductosComponent } from './pages/productos/productos.component';
+
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 
 import {HttpClientModule} from '@angular/common/http';
 
-
+import { ProductosComponent} from './pages/productos/productos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import {HttpClientModule} from '@angular/common/http';
     HeaderComponent,
     NavComponent,
     DashboardComponent,
-    
+    ProductosComponent,
     QuienesSomosComponent
 
   ],
@@ -40,8 +40,8 @@ import {HttpClientModule} from '@angular/common/http';
     MatToolbarModule,
     MatIconModule,
     NgbModule,
-    HttpClientModule,
-    
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,14 +6,14 @@ import {Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class ProductosService {
-  url:String= "http://localhost:3000/";
+  private urlApi= '  http://localhost:3000/productos';
     constructor(private http:HttpClient) { }
-  
-    obtenerProductos():Observable <any>{
-      return this.http.get(this.url+"productos");
-    
+
+    public getData():Observable <any>{
+      return this.http.get(this.urlApi);
+
     }
   }
 
-  
+
 

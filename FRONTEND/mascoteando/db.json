@@ -1,0 +1,17 @@
+{
+   "productos": [
+     {
+       "alimento": "eukanuba",
+       "mascota": "perro",
+       "costo": 1700
+     },
+
+     {
+      "alimento":"Dog Chow",
+      "mascota":"perro",
+      "costo":800
+
+     }
+
+  ]
+  }

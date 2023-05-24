@@ -1,4 +1,13 @@
-<p>productos works!</p>
 
-
-<h1>PRODUCTOS</h1>
+<div class="container">
+  <table class="table">
+    <tr>
+        <td>Nombre del Alimento</td>
+        <td>Precio ($)</td>
+    </tr>
+    <tr *ngFor="let item of data;">
+        <td>{{item.alimento}}</td>
+        <td>{{item.costo }}</td>
+    </tr>
+</table>
+  </div>

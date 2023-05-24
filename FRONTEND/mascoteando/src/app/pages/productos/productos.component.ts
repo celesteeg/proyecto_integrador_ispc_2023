@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component ,OnInit} from '@angular/core';
 import { ProductosService } from 'src/app/servicios/productos.service';
+import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-productos',
@@ -10,14 +11,29 @@ import { ProductosService } from 'src/app/servicios/productos.service';
 
 
   export class ProductosComponent{
-    url:String= "http://localhost:3000/";
-      constructor(public ProductosService:ProductosService) { }
-       
-      
-        }
-        ;
-    
-      
-    
+      data: any[] = [];
+      constructor(private ProductosService:ProductosService) { }
+
+      ngOnInit():void {
+        this.llenarData()
+      }
+
+      llenarData(){
+
+        this.ProductosService.getData().subscribe(data =>{
+          this.data=data;
+
+          console.log(this.data);
+
+        })
+
+
+      }
+
+}
+
+
+
+
 
 
